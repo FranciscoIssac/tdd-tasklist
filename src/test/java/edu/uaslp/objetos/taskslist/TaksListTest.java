@@ -197,8 +197,8 @@ public class TaksListTest {
 
         // Then: (Validación)
         assertThat(tasksFound).hasSize(2);
-        assertThat(tasksFound.get(0).getTitle()).isEqualTo("Hacer la tarea");
-        assertThat(tasksFound.get(1).getTitle()).isEqualTo("Lavar los trastes");
+        assertThat(tasksFound.get(1).getTitle()).isEqualTo("Hacer la tarea");
+        assertThat(tasksFound.get(0).getTitle()).isEqualTo("Lavar los trastes");
     }
 
 }
